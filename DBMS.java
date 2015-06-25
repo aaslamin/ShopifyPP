@@ -152,7 +152,7 @@ public class DBMS {
 	
 	public static DataRecord getRecord (int id) throws IOException {
 		if (id < 0) {
-			System.out.println("invalid id: " + id);
+			System.out.println("invalid id");
 			System.exit(1);
 		}
 		
@@ -189,107 +189,3 @@ public class DBMS {
 
 	}
 }
-
-
-
-
-
-//
-//
-//public class DBMS {	
-//	
-//	static String filename;
-//	public DBMS (String fname) {
-//		
-//		
-//		
-//		filename = fname;
-//		File db = new File(filename);
-//		
-//		if(!db.exists()) {
-//		    try {
-//				db.createNewFile();
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-//		} 
-//		try {
-//			FileOutputStream oFile = new FileOutputStream(db, true);
-//			oFile.close();
-//		} catch (FileNotFoundException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} 
-//		
-//	}
-//	
-//	public static void main (String[] args) {
-//		DBMS db = new DBMS("22222");
-//		
-//		//writeReq("111111111111");
-//		
-//		
-//		if (args.length < 1) {
-//			System.out.println("dfsfsdf");
-//			System.exit(1);
-//		}
-//		
-//		if (args[0].equalsIgnoreCase("write")) {
-//			int key = db.writeReq(args[1]);
-//			System.out.println("got here " + args[1]);
-//			
-//		}
-//		
-//		if (args[0].equalsIgnoreCase("list")) {
-//		}
-//		
-//		
-//		if (args[0].equalsIgnoreCase("read")) {
-//		
-//		}
-//		
-//	}
-//	
-//	
-//	public static int writeReq (String data) {
-//		
-//		try {
-//			
-//		    PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename, true)));
-//		    out.println("the text");
-//		    out.close();
-//			
-//		} catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//	
-//		return 0;
-//	}
-
-
-//public static void write (String data) {
-//	
-//	try {
-//		
-//		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename, true)));
-//		out.println(data);
-//		out.close();
-//		
-//	} catch (FileNotFoundException e) {
-//		e.printStackTrace();
-//	} catch (IOException e) {
-//		e.printStackTrace();
-//	}
-//	
-//}
-//
-//public static void read (int primaryKey) {
-//	
-//}
-//}
