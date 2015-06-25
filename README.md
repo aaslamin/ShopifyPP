@@ -2,7 +2,7 @@
 
 ### To run
 
-NOTE: you must have a Java Runtime Envrionment setup on your machine to run this application: https://www.java.com/en/download/faq/java_mac.xml
+NOTE: you must have a Java Runtime Envrionment setup on your machine in order to run this application: https://www.java.com/en/download/faq/java_mac.xml
 
 1. compile code using the make file provided:
 ```$ make ```
