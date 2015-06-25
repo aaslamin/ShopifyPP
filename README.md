@@ -2,8 +2,10 @@
 
 ### To run
 
+NOTE: you must have a Java Runtime Envrionment setup on your machine to run this application: https://www.java.com/en/download/faq/java_mac.xml
+
 1. compile code using the make file provided:
-  * $ make 
+```$ make ```
 2. execute the server via terminal using the API outlined below:
 ```
 $ java DBMS write <DATA>    // returns an ID representing the primary key of the record you just inserted
@@ -12,7 +14,8 @@ $ java DBMS read <KEY>      // will return the record associated with the specif
 $ java DBMS find <DATA>     // under construction
 ```
 NOTE: be careful **NOT** to run the application by specifying the class file: 
-* java DBMS**.class** (...) // **INCORRECT** will result in a java.lang.NoClassDefFoundError
+```java DBMS.class (...) ``` 
+As this will result in a java.lang.NoClassDefFoundError
 
 ### Notes
 
