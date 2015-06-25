@@ -1,4 +1,4 @@
-## Pair programming Database System project
+## Pair Programming Database System Hack @ Shopify!
 
 ### To run
 
