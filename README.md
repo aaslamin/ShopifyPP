@@ -17,7 +17,7 @@ NOTE: be careful **NOT** to run the application by specifying the class file:
 ### Notes
 
 * When you run the application, a file called **ShopifyDB** will be created within the same directory you executed the code from. This file represents our database and contains our primary key index. Feel free to keep deleting this file for testing purposes.
-* The data field is set to a specific size which can be changed by modifying one of the constants in the code. Currently, I set the data field to be 14 characters long. This is how we create our indices, by mapping memory to disk using file pointers. 
+* The data field is set to a specific size which can be changed by modifying one of the constants _(DataRecord.DATA_CLENGTH)_ in the code. Currently, it is set to 14 characters. This is how we create our indices, by mapping memory to disk using file pointers. 
 * The find method is under construction
 
 ### Example test run
