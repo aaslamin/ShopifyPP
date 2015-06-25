@@ -5,12 +5,12 @@
 1. compile code using the make file provided:
   * $ make 
 2. execute the server via terminal using the API outlined below:
-
-* $ **java DBMS write <DATA>**  // returns an ID representing the primary key of the record you just inserted
-* $ **java DBMS list**          // will return all the records in the database 
-* $ **java DBMS read <KEY>**    // will return the record associated with the specified key 
-* $ **java DBMS find <DATA>**   // under construction
-
+```
+$ java DBMS write <DATA>    // returns an ID representing the primary key of the record you just inserted
+$ java DBMS list            // will return all the records in the database 
+$ java DBMS read <KEY>      // will return the record associated with the specified key 
+$ java DBMS find <DATA>     // under construction
+```
 NOTE: be careful **NOT** to run the application by specifying the class file: 
 * java DBMS.class (...) // **INCORRECT** will result in a java.lang.NoClassDefFoundError
 
