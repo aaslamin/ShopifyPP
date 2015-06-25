@@ -41,16 +41,15 @@ Record [id = 1, value = Matt]
 Amirs-MacBook-Air-2:ShopifyPP amir$ java DBMS read 0
 Record [id = 0, value = Amir]
 Amirs-MacBook-Air-2:ShopifyPP amir$ java DBMS read -1
-invalid id: -1
+invalid id
 Amirs-MacBook-Air-2:ShopifyPP amir$ java DBMS read 412
 invalid id
 Amirs-MacBook-Air-2:ShopifyPP amir$ java DBMS read 9
-
+invalid id
 Amirs-MacBook-Air-2:ShopifyPP amir$ java DBMS list
 Record [id = 0, value = Amir]
 Record [id = 1, value = Matt]
 Record [id = 2, value = Shopify]
-
 ```
 
 
