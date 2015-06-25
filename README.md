@@ -12,7 +12,7 @@ $ java DBMS read <KEY>      // will return the record associated with the specif
 $ java DBMS find <DATA>     // under construction
 ```
 NOTE: be careful **NOT** to run the application by specifying the class file: 
-* java DBMS.class (...) // **INCORRECT** will result in a java.lang.NoClassDefFoundError
+* java DBMS**.class** (...) // **INCORRECT** will result in a java.lang.NoClassDefFoundError
 
 ### Notes
 
