@@ -6,7 +6,7 @@ public class DBMS {
 	private final static String filename = "ShopifyDB";
 	private static RandomAccessFile DB;  // data file (each line contains a new entry)
 	
-	private final static File dataIndex = new File(".DATAINDEX_" + filename); // index file used for the 'file' command  (i.e. value lookups)
+	private final static File dataIndex = new File(".DATAINDEX_" + filename); // index file used for the 'find' command  (i.e. value lookups)
 	
 	private static int recordCount = 0;
 	private static int recordStartOffset = Integer.SIZE/8; // offset from which data records are to be stored
