@@ -6,7 +6,7 @@ NOTE: you must have a Java Runtime Envrionment setup on your machine in order to
 
 1. compile code using the make file provided:
 ```$ make ```
-2. execute the server via terminal using the API outlined below:
+2. execute the server via terminal using the CLI outlined below:
 ```
 $ java DBMS write <DATA>    // returns an ID representing the primary key of the record you just inserted
 $ java DBMS list            // will return all the records in the database 
